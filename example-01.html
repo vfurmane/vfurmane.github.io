@@ -14,9 +14,15 @@
     <h1>Exemple 01 - Requêtes GET</h1>
     <div class="card" style="width: 18rem;">
         <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mont_Blanc_depuis_Valmorel_2.jpg"
-            class="card-img-top" alt="...">
+            class="card-img-top" alt="image not found">
         <div class="card-body">
             <p class="card-text">Voici une image du Mont Blanc.</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="https://nowhere.com/nothing.jpg" class="card-img-top" alt="image not found">
+        <div class="card-body">
+            <p class="card-text">Cette image est introuvable.</p>
         </div>
     </div>
     <p class="special-font">Cette police d'écriture est téléchargée depuis <a
@@ -28,8 +34,9 @@
     body {
         margin: 15px;
     }
-
-    body>p {
+    
+    body>p,
+    body>div {
         margin: 15px 0;
     }
 
