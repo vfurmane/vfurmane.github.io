@@ -50,7 +50,7 @@
             form[this.name] = this.value;
         });
         const body = {
-            user_credentials: form['username'] + "_" + form['password']
+            user_credentials: form['username'] + "-" + form['password']
         };
         $.ajax({
             url: $(this).attr("action"),
